@@ -458,3 +458,17 @@ func MustOpen(name string) *CSFUtil {
 
 	return u
 }
+
+func New(name string, version, unused, language uint) *CSFUtil {
+	return &CSFUtil{
+		filename:   name,
+		Version:    version,
+		NumLabels:  0,
+		NumStrings: 0,
+		Unused:     unused,
+		Language:   language,
+		Values:     map[string]LabelValue{},
+		Categories: map[string][]string{},
+		Order:      []string{},
+	}
+}
