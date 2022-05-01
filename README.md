@@ -1,10 +1,10 @@
 # csfutil
 
-Yet another tool for accessing Red Alert 2 and Yuri's revenge CSF (string table) files.
+A tool for easy accessing Red Alert 2 and Yuri's revenge CSF (string table) files.
 
 ## Usage
 
-### (WIP)Command-line tool:
+### Command-line tool:
 
 Grab pre-compiled binary from [release page](https://github.com/Zhwt/csfutil/releases) or use `go install github.com/Zhwt/csfutil/cmd`.
 
